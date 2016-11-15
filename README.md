@@ -21,3 +21,8 @@ funOnce.add(test2);
 funOnce.add(test3);
 funOnce.add(test4);
 ~~~
+
+####　输出结果
+~~~ javascript
+test4
+~~~
