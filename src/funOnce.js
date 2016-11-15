@@ -4,7 +4,7 @@
 var funOnce = function () {
 	var timer, isExeced;
 	return {
-		add : function (f) {
+		exec : function (f) {
 			isExeced || clearTimeout(timer);
 			isExeced = false;
 			timer = setTimeout(function () {
